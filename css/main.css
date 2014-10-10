@@ -48,19 +48,35 @@ img {
     margin: 0;
 }
 
+.footer {
+    background-color: lightgray;
+}
+
+.sectionlight {
+    background-color: #efefef;
+}
+
+.sectionmedium {
+    background-color: #e2e2e2;
+}
 
 .nav {
     padding:0;
     list-style-type: none;
+    
 }
-
 .nav a{
     display: block;
     padding: 0.25em;
     text-decoration: none;
-    color: #0074D9
+    color: #0074D9;
 }
 
+.nav a:hover {
+    background-color: #0074D9;
+    color: white;
+}
+    
 @media only screen and (min-width: 26em) {
     
     .nav li {
