@@ -136,5 +136,21 @@ img {
 }
 
 @media only screen and (min-width: 60em) {
-}
+    
+    dl {
+        border: 1px;
+        overflow: hidden;
+    }
 
+    dt {
+        float:left;
+        clear:left;
+        width: 8rem;
+    }
+
+    dd {
+        float:left;
+        margin: 0;
+        padding:0;
+    }
+}
