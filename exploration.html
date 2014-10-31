@@ -36,28 +36,29 @@
     
 <h2 class="exa sectionlight intro">Exploration</h2>
     
-<form class="sectionlight" action="thanks.html" method="post">
-    
+<div class="sectionlight">
     <h2 class="exa gutter intro pad-t">Join Jupiter's Exporation Team</h2>
     <p class="gutter intro">Are you interested in exploring Jupiter with a group of extremely talented people? <i>Sign up below!</i></p>
+
+<form class="sectionlight" action="thanks.html" method="post">
     
     <div class="gutter">
     <label for="name">Name</label>
-    <input id="name"> 
+    <input class="text-input" id="name"> 
     </div>
     
     <div class="gutter">
     <label for="email-addr">E-mail Address</label>
-    <input type="email" id="email-addr">
+    <input class="text-input" type="email" id="email-addr">
     </div>
     
     <div class="gutter">
     <label for="age">Age</label>
-    <input type="datetime" id="age">
+    <input class="text-input" type="number" id="age">
     </div>
 
     <div class="gutter">
-        <p>Your level of awesomeness</p>
+        <p class="push-none pad-t-1-2">Your level of <i>awesomeness</i></p>
         <input type="radio" id="meh" name="like-cats">
         <label for="meh">Meh...</label>
         
@@ -68,16 +69,17 @@
         <label for="super">Super!</label>
     </div>
     
-    <div class="gutter">
+    <div class="gutter pad-t-1-2">
         <label for="why">Explain Why you deserve to go:</label>
-        <textarea id="why"></textarea>
+        <textarea class="text-box" id="why"></textarea>
     </div>
     
-        <div>
-    <button type="submit">Sign Up</button>
+        <div style="button" class="pad-t pad-b">
+    <button class="giga button" type="submit">Sign Up</button>
     </div>
 
 </form>
+</div>
 
 </main>
     
