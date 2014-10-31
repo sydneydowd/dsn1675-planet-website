@@ -133,7 +133,7 @@ img {
     text-align: center;
 }
 
-.footer a::after {
+.footer ul a::after {
     content: " ·";
 }
 
@@ -179,6 +179,10 @@ button{
 form {
     max-width: 35em;
     margin: 0 auto;
+}
+
+.radio {
+    white-space: nowrap;
 }
     
 @media only screen and (min-width: 20em) {
