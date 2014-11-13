@@ -9,6 +9,22 @@ fieldset, pre, table {
   margin: 0 0 1.5rem;
 }
 
+html {
+  font: normal 100%/1.5 "Merriweather" serif;
+}
+
+h1, h2, h3, h4, h5, h6,
+p, ul, ol, dl, dd, figure,
+blockquote, details, hr,
+fieldset, pre, table {
+  margin: 0 0 1.5rem;
+}
+
+h1, h2, h3, h4, h5, h6,
+.brand-family {
+    font-family: "Open Sans" serif;
+}
+
 .yotta {
   font-size: 2.2807rem;
   line-height: 1.3154;
