@@ -135,7 +135,7 @@ img {
 .nav a:hover {
     background-color: #d90007;
     color: white;
-    border-radius: 10%;
+    border-radius: 50%;
 }
 
 h2 {
