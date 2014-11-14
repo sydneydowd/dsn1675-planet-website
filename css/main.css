@@ -121,12 +121,6 @@ img {
     color: white;
 }
 
-header {
-    position: fixed;
-    z-index: 9999;
-    width: 100%;
-}
-
 .nav {
     padding:0;
     list-style-type: none;
