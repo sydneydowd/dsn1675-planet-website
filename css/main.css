@@ -168,7 +168,7 @@ input + label {
 }
 
 button:hover {
-    background-image: linear-gradient(50deg, blue, white, blue);
+    color:#d90007;
 }
   
 button:active {
