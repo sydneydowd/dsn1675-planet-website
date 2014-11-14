@@ -110,11 +110,26 @@ img {
 }
 
 .sectionmedium {
-    background-color: #e2e2e2;
+    background-color: #279aff;
 }
 
 .sectiondark {
-    background-color: #696969;
+    background-color: #004b8d;
+}
+
+.whitetype {
+    color: white;
+}
+
+header {
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+}
+
+h2 {
+    position: relative;
+    padding-top: 140px;
 }
 
 .nav {
@@ -129,7 +144,7 @@ img {
 }
 
 .nav a:hover {
-    background-color: #0074D9;
+    background-color: #d90007;
     color: white;
     border-radius: 10%;
 }
